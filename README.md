@@ -57,6 +57,11 @@ Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete
 3. Crea la base de datos usando phpmyadmin.
 4. Ejecuta la aplicación en un servidor local.
 
+   Opciones para buscar
+Búsqueda por palabra clave: Proporciona a los usuarios un campo de búsqueda donde puedan ingresar palabras clave relacionadas con los registros que desean encontrar. Esta búsqueda puede realizarse en uno o varios campos de los registros.
+
+Filtros por atributos específicos: Permite a los usuarios filtrar los registros basados en atributos específicos. Por ejemplo, si estás trabajando con una lista de productos, podrías ofrecer opciones de filtrado por categoría, precio, fecha de creación, etc.
+
 ## Nota de Seguridad
 
 Esta aplicación es una demostración básica y no implementa medidas avanzadas de seguridad. Es recomendable utilizar declaraciones preparadas (prepared statements) u ORM para las interacciones con la base de datos para prevenir ataques de inyección SQL.
